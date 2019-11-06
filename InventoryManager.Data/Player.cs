@@ -17,5 +17,6 @@ namespace InventoryManager.Data
         public List<Item> Inventory { get; set; }
 
 
+
     }
 }
