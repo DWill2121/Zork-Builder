@@ -1,0 +1,16 @@
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\bin\Debug\InventoryManager.WinForms.exe.config
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\bin\Debug\InventoryManager.WinForms.exe
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\bin\Debug\InventoryManager.WinForms.pdb
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.csprojAssemblyReference.cache
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.MainForm.resources
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.Properties.Resources.resources
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.csproj.GenerateResource.cache
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.exe
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.pdb
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\bin\Debug\InventoryManager.Data.dll
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\bin\Debug\InventoryManager.Data.pdb
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.csproj.CopyComplete
+C:\Users\de768578\source\repos\InventoryManager\InventoryManager.WinForms\obj\Debug\InventoryManager.WinForms.csproj.Fody.CopyLocal.cache
