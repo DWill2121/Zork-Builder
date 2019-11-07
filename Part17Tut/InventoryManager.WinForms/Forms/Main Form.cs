@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using System.Text;
 using System.IO;
 
-namespace InventoryManager.WinForms
+namespace InventoryManager.WinForms.Forms
 {
     public partial class MainForm : Form
     {
@@ -55,6 +55,17 @@ namespace InventoryManager.WinForms
             }
         }
 
+        private void AddPlayersButton_Click(object sender, EventArgs e)
+        {
+            using (AddPlayerForm addPlayerForm = new AddPlayerForm())
+            {
+                if(addPlayerForm.ShowDialog() == DialogResult.OK)
+                {
+                    //TODO
+                }
+            }
+        }
+
         private WorldViewModel mViewModel;
 
         private void MainTabControl_SelectedIndexChanged(object sender, EventArgs e)
@@ -62,10 +73,7 @@ namespace InventoryManager.WinForms
 
         }
 
-        private void AddPlayersButton_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void DeletePlayersButton_Click(object sender, EventArgs e)
         {

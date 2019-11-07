@@ -1,4 +1,4 @@
-﻿namespace InventoryManager.WinForms
+﻿namespace InventoryManager.WinForms.Forms
 {
     partial class MainForm
     {
@@ -39,8 +39,8 @@
             this.itemListBox = new System.Windows.Forms.ListBox();
             this.itemsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.playersTabPage = new System.Windows.Forms.TabPage();
-            this.scoreTextBox = new System.Windows.Forms.TextBox();
             this.playersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.scoreTextBox = new System.Windows.Forms.TextBox();
             this.playerScoreLabel = new System.Windows.Forms.Label();
             this.healthTextBox = new System.Windows.Forms.TextBox();
             this.playerHealthLabel = new System.Windows.Forms.Label();
@@ -50,8 +50,6 @@
             this.addPlayersButton = new System.Windows.Forms.Button();
             this.playersListBox = new System.Windows.Forms.ListBox();
             this.mainTabControl = new System.Windows.Forms.TabControl();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.worldViewModelBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.worldBindingSource)).BeginInit();
             this.itemsTabPage.SuspendLayout();
@@ -133,8 +131,6 @@
             // 
             // playersTabPage
             // 
-            this.playersTabPage.Controls.Add(this.textBox1);
-            this.playersTabPage.Controls.Add(this.label1);
             this.playersTabPage.Controls.Add(this.scoreTextBox);
             this.playersTabPage.Controls.Add(this.playerScoreLabel);
             this.playersTabPage.Controls.Add(this.healthTextBox);
@@ -152,6 +148,11 @@
             this.playersTabPage.Text = "Players";
             this.playersTabPage.UseVisualStyleBackColor = true;
             // 
+            // playersBindingSource
+            // 
+            this.playersBindingSource.DataMember = "Players";
+            this.playersBindingSource.DataSource = this.worldBindingSource;
+            // 
             // scoreTextBox
             // 
             this.scoreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.playersBindingSource, "Score", true));
@@ -159,11 +160,6 @@
             this.scoreTextBox.Name = "scoreTextBox";
             this.scoreTextBox.Size = new System.Drawing.Size(73, 20);
             this.scoreTextBox.TabIndex = 12;
-            // 
-            // playersBindingSource
-            // 
-            this.playersBindingSource.DataMember = "Players";
-            this.playersBindingSource.DataSource = this.worldBindingSource;
             // 
             // playerScoreLabel
             // 
@@ -252,23 +248,6 @@
             this.mainTabControl.TabIndex = 3;
             this.mainTabControl.SelectedIndexChanged += new System.EventHandler(this.MainTabControl_SelectedIndexChanged);
             // 
-            // textBox1
-            // 
-            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.playersBindingSource, "Name", true));
-            this.textBox1.Location = new System.Drawing.Point(165, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(206, 20);
-            this.textBox1.TabIndex = 14;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(162, 157);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Name";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -319,8 +298,6 @@
         private System.Windows.Forms.Label playerHealthLabel;
         private System.Windows.Forms.TextBox PlayerNameTextBox;
         private System.Windows.Forms.Label playerNameLabel;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -13,5 +13,10 @@ namespace InventoryManager.WinForms.Forms
         {
             InitializeComponent();
         }
+
+        private void okButton_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

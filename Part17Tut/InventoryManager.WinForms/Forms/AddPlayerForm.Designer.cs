@@ -64,12 +64,14 @@ namespace InventoryManager.WinForms.Forms
             // 
             // okButton
             // 
+            this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.okButton.Location = new System.Drawing.Point(60, 51);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 2;
             this.okButton.Text = "&Ok";
             this.okButton.UseVisualStyleBackColor = true;
+            this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // AddPlayerForm
             // 
@@ -87,15 +89,16 @@ namespace InventoryManager.WinForms.Forms
             this.MinimizeBox = false;
             this.Name = "AddPlayerForm";
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddPlayerForm";
-            AddPlayerForm addPlayerForm = this;
-            
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
-       
+        
+
+
 
         #endregion
 
